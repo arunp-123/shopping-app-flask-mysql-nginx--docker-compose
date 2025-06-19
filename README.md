@@ -1,5 +1,34 @@
-# docker build -t arun1278/shopping-application:v1 .
-# [ec2-user@ip-172-31-33-238 nginx]$ docker build -t arun1278/shopping-proxy:v1 .
+# Shopping App (Flask + MySQL + NGINX) using Docker Compose
 
-# docker compose config
-# docker compose up -d
+This project demonstrates a simple shopping web application using **Flask**, **MySQL**, and **NGINX**, all containerized using **Docker Compose**.
+
+## 🧱 Components
+
+- **Flask App**: The backend application
+- **MySQL**: Relational database to store shopping data
+- **NGINX**: Acts as a reverse proxy to route traffic to the Flask containers
+
+
+## 🚀 Quick Start
+
+### 1. Build Docker images
+
+
+### Build the Flask application:
+
+docker build -t arun1278/shopping-application:v1 .
+
+### Build the NGINX proxy:
+
+
+docker build -t arun1278/shopping-proxy:v1 .
+
+### To check the full config being used:
+
+docker compose config
+
+
+### Start the containers
+
+docker compose up -d
+
