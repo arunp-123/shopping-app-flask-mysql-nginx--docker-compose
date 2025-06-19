@@ -23,12 +23,12 @@ docker build -t arun1278/shopping-application:v1 .
 
 docker build -t arun1278/shopping-proxy:v1 .
 
-### To check the full config being used:
+### 2. To check the full config being used:
 
 docker compose config
 
 
-### Start the containers
+### 3 Start the containers
 
 docker compose up -d
 
