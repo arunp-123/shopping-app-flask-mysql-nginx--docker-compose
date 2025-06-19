@@ -28,6 +28,21 @@ docker build -t arun1278/shopping-proxy:v1 .
 docker compose config
 
 
+🧹 Management Commands
+
+Stop all services:
+
+docker compose down
+
+View logs:
+
+docker compose logs -f
+
+Rebuild containers:
+
+docker compose up -d --build
+
+
 ### 3 Start the containers
 
 docker compose up -d
